@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Results - LTI</title>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,9 +12,9 @@
 <p>View your CATs, Exams, and Assignment Results below:</p>
 
 <ul>
-<li><a href="assets/files/results/sample_result.pdf" target="_blank">CAT Results</a></li>
-<li><a href="assets/files/results/sample_result.pdf" target="_blank">Exam Results</a></li>
-<li><a href="assets/files/results/sample_result.pdf" target="_blank">Assignment Results</a></li>
+<li><a href="sample_result.pdf" target="_blank">CAT Results</a></li>
+<li><a href="sample_result.pdf" target="_blank">Exam Results</a></li>
+<li><a href="sample_result.pdf" target="_blank">Assignment Results</a></li>
 </ul>
 
 <br>
