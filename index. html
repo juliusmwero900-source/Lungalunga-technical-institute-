@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lungalunga Technical Institute</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+<h1>Lungalunga Technical Institute</h1>
+<div class="nav-buttons">
+<button onclick="location.href='login.html'">Login</button>
+<button onclick="location.href='register.html'">Register</button>
+</div>
+</header>
+
+<div class="container">
+<h2>Welcome to our Online Learning Platform</h2>
+<p>We provide the following courses:</p>
+<div class="courses-list">
+<span>ICT</span>
+<span>Automotive Engineering</span>
+<span>Mechanical Engineering</span>
+<span>Electrical Engineering</span>
+<span>Fashion and Design</span>
+<span>Beauty & Therapy</span>
+</div>
+<p class="footer-message">More courses coming soon!</p>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="notes.html">Notes</a>
+<a href="results.html">Results</a>
+<a href="assignments.html">Assignments</a>
+</nav>
+</div>
+</body>
+</html>
