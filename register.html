@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register - LTI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js"></script>
+</head>
+<body>
+<div class="container">
+<h2>Register</h2>
+<form id="registerForm" onsubmit="event.preventDefault(); registerUser();">
+<input type="text" id="username" placeholder="Username" required><br>
+<input type="text" id="course" placeholder="Course (e.g., ICT)" required><br>
+<input type="password" id="password" placeholder="Password" onkeyup="checkStrength()" required><br>
+<p id="strength"></p>
+<button type="submit">Register</button>
+</form>
+<p id="message"></p>
+<p><a href="login.html" style="color:#fff;">Already registered? Login here</a></p>
+</div>
+</body>
+</html>
