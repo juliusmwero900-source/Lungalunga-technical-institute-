@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Results - LTI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Results Section</h2>
+<p>View your CATs, Exams, and Assignment Results below:</p>
+
+<ul>
+<li><a href="assets/files/results/sample_result.pdf" target="_blank">CAT Results</a></li>
+<li><a href="assets/files/results/sample_result.pdf" target="_blank">Exam Results</a></li>
+<li><a href="assets/files/results/sample_result.pdf" target="_blank">Assignment Results</a></li>
+</ul>
+
+<br>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="notes.html">Notes</a>
+<a href="assignments.html">Assignments</a>
+</nav>
+
+</div>
+
+</body>
+</html>
