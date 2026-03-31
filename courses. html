@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Courses - LTI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h2>Welcome to our Course Section 💪💪</h2>
+<p>Please select the course you would like to start your technical journey with us</p>
+<h3>We offer the following courses:</h3>
+<div class="courses">
+<span onclick="alert('Login first to access ICT')">ICT</span>
+<span onclick="alert('Login first to access Automotive Engineering')">Automotive Engineering</span>
+<span onclick="alert('Login first to access Mechanical Engineering')">Mechanical Engineering</span>
+<span onclick="alert('Login first to access Electrical Engineering')">Electrical Engineering</span>
+<span onclick="alert('Login first to access Fashion and Design')">Fashion and Design</span>
+<span onclick="alert('Login first to access Beauty & Therapy')">Beauty & Therapy</span>
+</div>
+<p>Feel free to contact us for more information</p>
+</body>
+</html>
