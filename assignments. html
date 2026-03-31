@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignments - LTI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Assignments Section</h2>
+<p>Download your assignments below:</p>
+
+<ul>
+<li><a href="assets/files/assignments/sample_assignment.pdf" target="_blank">ICT Assignment</a></li>
+<li><a href="assets/files/assignments/sample_assignment.pdf" target="_blank">Mechanical Assignment</a></li>
+<li><a href="assets/files/assignments/sample_assignment.pdf" target="_blank">Electrical Assignment</a></li>
+</ul>
+
+<br>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="notes.html">Notes</a>
+<a href="results.html">Results</a>
+</nav>
+
+</div>
+
+</body>
+</html>
