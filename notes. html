@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Notes - LTI</title>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h2>Notes</h2>
 <ul>
-<li><a href="assets/files/notes/sample_note.pdf" target="_blank">Sample Note PDF</a></li>
+<li><a href="sample_note.pdf" target="_blank">Sample Note PDF</a></li>
 </ul>
 </body>
 </html>
