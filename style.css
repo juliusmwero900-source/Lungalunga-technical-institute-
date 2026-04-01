@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: cabri, sans-serif;
     background: url('library.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
@@ -9,10 +9,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10x 20x;
     background-color: rgba(0,0,0,0.7);
 }
-header h1 { font-size: 16px; font-weight: bold; }
+header h1 { font-size: 16x; font-weight: bold; }
 header .nav-buttons button {
     margin-left: 10px;
     padding: 5px 10px;
@@ -24,12 +24,12 @@ header .nav-buttons button {
     display: block;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 20x;
     margin: 10px 0;
     cursor: pointer;
 }
 .footer-message { font-weight: bold; margin-top: 30px; }
 nav a { color: #fff; margin: 0 10px; font-weight: bold; text-decoration: none; }
 nav { margin-top: 20px; display: block; }
-input { margin: 5px 0; padding: 5px; width: 200px; }
+input { margin: 5px 0; padding: 5px; width: 200x; }
 button { padding: 5px 10px; cursor: pointer; font-weight: bold; }
