@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    font-family: cabri, sans-serif;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     background: url('library.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #0000;
@@ -12,7 +13,7 @@ header {
     padding: 10x 20px;
     background-color: rgba(0,0,0,0.7);
 }
-header h1 { font-size: 16x; font-weight: bold; }
+header h1 { font-size: 18px; font-weight: bold; }
 header .nav-buttons button {
     margin-left: 10px;
     padding: 5px 10px;
