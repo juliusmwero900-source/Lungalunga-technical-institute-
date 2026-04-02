@@ -1,13 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lungalunga Technical Institute</title>
 <link rel="stylesheet" href="style.css">
+<style>
+/* Library Images Section */
+.library-images {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.image-item img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Container Section */
+.container {
+  padding: 20px 40px;
+  line-height: 1.6;
+}
+
+/* Courses List */
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: bold;
+}
+.courses-list span {
+  text-decoration: underline;
+}
+
+/* Footer Message */
+.footer-message {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Section Box (Library Links) */
+.section-box {
+  background-image: url('library-books.jpg'); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-box a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.section-box a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 15px;
+  padding: 15px 40px;
+  background-color: #e0e0e0;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+</style>
 </head>
 <body>
+
+<!-- Header -->
 <header>
-<!-- Library Images Section -->
+  <div class="header-left">
+    <img src="logo.png" alt="Lungalunga Logo" class="logo">
+    <h1>Lungalunga Technical Institute</h1>
+  </div>
+  <div class="nav-buttons">
+    <button onclick="location.href='login.html'">Login</button>
+    <button onclick="location.href='register.html'">Register</button>
+  </div>
+</header>
+
+<!-- Library Images -->
 <div class="library-images">
   <div class="image-item">
     <img src="library1.jpg" alt="Library Image 1">
@@ -17,62 +126,30 @@
     <img src="library2.jpg" alt="Library Image 2">
     <p class="caption">I was wondering which school I can join in coastal region, now I found one that meets my standards and academic goals</p>
   </div>
-    <div class="header-left">
-        <img src="logo.png" alt="Lungalunga Logo" class="logo">
-<h1>Lungalunga Technical Institute</h1>
-<div class="nav-buttons">
-<button onclick="location.href='login.html'">Login</button>
-<button onclick="location.href='register.html'">Register</button>
 </div>
-</header>
 
+<!-- Main Content -->
 <div class="container">
-<h2>Welcome to our Online Learning Platform</h2>
-<p> Lungalunga is one of the known tvet institutions that offers both 
-  physical and online class .This was established to enhance continually deliverance of education remotely
-  Based on technological demand ,the institution has work hand in hand with the ict department to make sure 
-  students access courses, notes ,view the enternal exams results and get informed from the school updates
-  which keep them in the right track through their technical journey.I therefore recommend everyone wishing to join us or whether on our students to take this
-  platform seriously for the purpose of achieving our goals
-  The institution currently offers  courses based on the curriculum of both knec 844 system and cdac recently embraced système.
-  For more info based on the course we offer please select the courses section below and much more.
-  I wish everyone happy stay🙏 Dont forget to leave us feedback based on your experience,that will triger us to bring more features that will account students' consistence 
-  and of course continually shape his or her technical journey</p>
-<p>We provide the following courses:</p>
-<div class="courses-list">
-<span>Information & Communication Technology</span>
-<span>Automotive Engineering</span>
-<span>Mechanical Engineering</span>
-<span>Electrical Engineering</span>
-<span>Fashion and Design</span>
-<span>Beauty & Therapy</span>
+  <h2>Welcome to our Online Learning Platform</h2>
+  <p>
+    Lungalunga is one of the known TVET institutions that offers both physical and online classes. 
+    This was established to continually enhance the delivery of education remotely. Based on technological demand, 
+    the institution works hand in hand with the ICT department to ensure students can access courses, notes, 
+    view internal exam results, and stay updated with school announcements.
+  </p>
+  <p>We provide the following courses:</p>
+  <div class="courses-list">
+    <span>Information & Communication Technology</span>
+    <span>Automotive Engineering</span>
+    <span>Mechanical Engineering</span>
+    <span>Electrical Engineering</span>
+    <span>Fashion and Design</span>
+    <span>Beauty & Therapy</span>
+  </div>
+  <p class="footer-message">More courses coming soon!</p>
 </div>
-<p class="footer-message">More courses coming soon!</p>
-      .section-box {
-    background-image: url('library-books.jpg'); /* replace with your image path */
-    background-size: cover;
-    background-position: center;
-    padding: 40px 20px; /* inner spacing */
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* space between items (2 indents) */
-  }
 
-  .section-box a {
-    font-size: 40px;
-    color: black; /* text color matching background */
-    text-decoration: none;
-    margin-left: 40px; /* 2 indents from start */
-  }
-
-  .section-box a:hover {
-    text-decoration: underline;
-  }
-</style>
-</head>
-<body>
-
+<!-- Section Box with Links -->
 <div class="section-box">
   <a href="#">Home</a>
   <a href="#">Notes</a>
@@ -80,18 +157,15 @@
   <a href="#">Assignments</a>
 </div>
 
-</body>
-</html>
-
+<!-- Navigation -->
 <nav>
-<a href="index.html">Home</a>
-<a href="courses.html">Courses</a>
-<a href="notes.html">Notes</a>
-<a href="results.html">Results</a>
-<a href="assignments.html">Assignments</a>
-<a href="admin dashboard.html"> Admin Dashboard</a>
+  <a href="index.html">Home</a>
+  <a href="courses.html">Courses</a>
+  <a href="notes.html">Notes</a>
+  <a href="results.html">Results</a>
+  <a href="assignments.html">Assignments</a>
+  <a href="admin dashboard.html">Admin Dashboard</a>
 </nav>
-</div>
+
 </body>
-    </html>
-    
+  </html>
