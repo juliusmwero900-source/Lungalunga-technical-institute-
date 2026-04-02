@@ -147,3 +147,37 @@ button:hover {
     font-weight: bold;
     text-decoration: none;
     }
+.section-box {
+  background-image: url('library-books.jpg'); /* Replace with your library image path */
+  background-size: cover;       /* Make image cover entire container */
+  background-position: center;  /* Center the image */
+  background-repeat: no-repeat; /* Avoid repeating image */
+  padding: 40px 20px;           /* Inner spacing inside the box */
+  display: flex;                /* Flex layout for vertical stacking */
+  flex-direction: column;       /* Stack links vertically */
+  gap: 20px;                    /* Space between links (like 2 indents) */
+  position: fixed;              /* Stick to the bottom of the page */
+  bottom: 0;                    /* Align to bottom */
+  width: 100%;                  /* Full page width */
+  box-sizing: border-box;       /* Include padding in width */
+  text-align: left;             /* Align links to left */
+  /* Slight overlay for readability */
+  background-color: rgba(255, 255, 255, 0.6); /* semi-transparent white overlay */
+  backdrop-filter: blur(2px); /* soft blur behind text */
+}
+
+/* Links inside the bottom box */
+.section-box a {
+  font-size: 40px;      /* Large font size */
+  color: black;         /* Text color to match background */
+  text-decoration: none; /* Remove underline */
+  margin-left: 40px;    /* Indent from left (2 indents) */
+  font-weight: bold;    /* Bold links */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.section-box a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #333; /* Slightly darker on hover */
+}
+
