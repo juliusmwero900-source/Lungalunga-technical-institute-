@@ -23,13 +23,13 @@ header {
 }
 
 .logo {
-    width: 100px;                  /* logo width */
+    width: 200px;                  /* logo width */
     height: auto;
     margin-right: 24px;           /* space between logo and text */
 }
 
 .header-left h1 {
-    font-size: 54px;
+    font-size: 64px;
     margin: 0;                     /* remove extra spacing */
     font-weight: bold;
 }
@@ -37,7 +37,7 @@ header {
 /* RIGHT SIDE: LOGIN / REGISTER */
 .header-right a {
     color: white;
-    margin-left: 30px;             /* spacing between buttons */
+    margin-left: 80px;             /* spacing between buttons */
     text-decoration: none;
     font-weight: bold;
 }
@@ -77,12 +77,13 @@ header {
     text-decoration: underline;
     margin: 25px 0;                 /* spacing between courses */
     cursor: pointer;
+    font-colour:gold;
 }
 
 /* ===== OTHER SECTIONS ===== */
 .sections {
     padding: 60px 80px;           /* same padding as hero for uniformity */
-    background-color: #ffffff;
+    background-color: library.jpg;
     color: #222;
 }
 
