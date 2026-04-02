@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
+    color: #222;
 }
 
 /* ===== HEADER ===== */
@@ -10,77 +11,138 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 20px;          /* header padding */
     background-color: #002147;
     color: white;
 }
 
-header h1 {
-    font-size: 24px;
+/* LEFT SIDE: LOGO + TEXT */
+.header-left {
+    display: flex;
+    align-items: center;
 }
 
-/* ===== CONTENT BACKGROUND ===== */
-.container {
-    min-height: 100vh;
+.logo {
+    width: 60px;                  /* logo width */
+    height: auto;
+    margin-right: 12px;           /* space between logo and text */
+}
+
+.header-left h1 {
+    font-size: 24px;
+    margin: 0;                     /* remove extra spacing */
+    font-weight: bold;
+}
+
+/* RIGHT SIDE: LOGIN / REGISTER */
+.header-right a {
+    color: white;
+    margin-left: 15px;             /* spacing between buttons */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* ===== HERO SECTION (WITH LIBRARY BACKGROUND) ===== */
+.hero {
+    padding: 40px 50px;            /* increase left/right padding for indents */
     background: url('library.jpg') no-repeat center center;
     background-size: cover;
-
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: darken;
-
-    padding: 40px 20px;
     color: white;
+    text-align: left;              /* align content to left */
 }
 
-/* ===== GLASS FORM ===== */
-.form-container {
-    width: 300px;
-    margin: 80px auto;
-    padding: 40px20px;
-    border-radius: 18px;
-
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-    text-align: center;
+/* WELCOME TITLE */
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
-/* ===== INPUT ===== */
-.form-container input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border-radius: 12px;
-    border: none;
+/* ===== COURSES LIST (VERTICAL) ===== */
+.courses-list {
+    display: flex;
+    flex-direction: column;        /* vertical stacking */
+    align-items: flex-start;       /* align to left for indents */
+    margin-left: 20px;             /* left indent from hero section */
 }
 
-/* ===== BUTTON ===== */
-.form-container button {
-    width: 100%;
-    padding: 12px;
-    background: #00aaff;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
+.courses-list span {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 8px 0;                 /* spacing between courses */
     cursor: pointer;
 }
 
-/* ===== LINKS ===== */
-.form-container a {
+/* ===== OTHER SECTIONS ===== */
+.sections {
+    padding: 40px 50px;           /* same padding as hero for uniformity */
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* ===== SIGNUP LINK ===== */
+.signup-link {
     color: #00aaff;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
 }
 
-/* ===== DASHBOARD ===== */
-.dashboard {
-    text-align: center;
-    margin-top: 100px;
-    }
-.sections {
-    padding: 40px 20px;
-    background-color: #ffffff; /* clean white */
-    color: #222;
+.signup-link:hover {
+    text-decoration: underline;
 }
+
+/* ===== GLASS LOGIN/REGISTER FORM ===== */
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    text-align: center;
+    color: white;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.form-container a {
+    color: #00aaff;
+    font-weight: bold;
+    text-decoration: none;
+    }
