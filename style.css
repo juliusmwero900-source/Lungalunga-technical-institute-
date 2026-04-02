@@ -79,3 +79,8 @@ header h1 {
     text-align: center;
     margin-top: 100px;
     }
+.sections {
+    padding: 40px 20px;
+    background-color: #ffffff; /* clean white */
+    color: #222;
+}
